@@ -219,10 +219,13 @@ Hvis du optimerer først, har du ingen baseline at sammenligne med. Du kan derfo
 Du får en tydelig før/efter-måling og kan se, hvilke ændringer der faktisk forbedrer performance.
 
 ## Reusltater:
+
+```text
 index.html= 56
 contact.html= 55
 games.html= 55
 news.html= 55
+```
 
 # Opgave 2 – Optimér billeder og konvertér til WebP
 
@@ -322,7 +325,13 @@ ImageMagick er et mere avanceret værktøj, som blandt andet kan konvertere, æn
 
 Det er **ikke et krav** at bruge ImageMagick i denne opgave.
 
----
+## resultater
+```text
+index.html= 70
+contact.html= 70
+games.html= Den ville ikke loade
+news.html= 69
+```
 
 # Opgave 3 – Kontrollér billedkvaliteten
 
