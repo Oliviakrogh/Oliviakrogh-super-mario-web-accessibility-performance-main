@@ -218,7 +218,11 @@ Hvis du optimerer først, har du ingen baseline at sammenligne med. Du kan derfo
 
 Du får en tydelig før/efter-måling og kan se, hvilke ændringer der faktisk forbedrer performance.
 
----
+## Reusltater:
+index.html= 56
+contact.html= 55
+games.html= 55
+news.html= 55
 
 # Opgave 2 – Optimér billeder og konvertér til WebP
 
