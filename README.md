@@ -450,7 +450,13 @@ Thumbnail eller andet billede længere nede
 
 Browseren kan prioritere de vigtigste ressourcer først og udsætte billeder, som brugeren endnu ikke kan se.
 
----
+## resultater 
+```text
+index.html= 76
+contact.html= 75
+games.html= 62
+news.html= 79
+```
 
 # Opgave 5 – Gennemgå billedernes alt-tekster
 
