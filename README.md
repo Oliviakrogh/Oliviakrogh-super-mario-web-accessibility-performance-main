@@ -370,7 +370,9 @@ Sammenlign originalen og WebP-versionen i browseren.
 
 Hvis kvaliteten ikke er tilfredsstillende, skal du eksportere billedet igen med en højere kvalitetsindstilling.
 
----
+## resultater
+
+Alle billederne ser fine ud
 
 # Opgave 4 – Opdatér billedreferencer og brug lazy loading med omtanke
 
