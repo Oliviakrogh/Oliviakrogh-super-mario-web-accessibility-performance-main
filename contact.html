@@ -33,10 +33,17 @@
         <article>
             <h2>Get in touch with me, Mario</h2>
             <form>
-                <input type="text" name="fname" placeholder="Type Firstname" required>
-                <input type="text" name="lname" placeholder="Type Lastname" required><br />
-                <input type="email" name="mail" placeholder="Type Email" required>
-                <input list="countries" name="country" id="country">
+                <label for="fname">Firstname</label>
+                <input type="text" id="fname" name="fname" autocomplete="fname" placeholder="Type Firstname" required>
+
+                <label for="lname">Lastname</label>
+                <input type="text" id="lname" name="lname" autocomplete="lname" placeholder="Type Lastname" required><br />
+
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" autocomplete="email" placeholder="Type Email" required>
+
+                <label for="country">Country</label>
+                <input list="countries" name="country" id="country" autocomplete="country-name">
                 <datalist id="countries">
                     <option value="Albania">
                     <option value="Austria">
@@ -73,7 +80,9 @@
                     <option value="United Kingdom">
                 </datalist>
                 <br />
-                <textarea name="question" rows="4" cols="40" placeholder="Ask a question...">Ask a question</textarea>
+                
+                <label for="question">Question</label>
+                <textarea name="question" id="question" rows="4" cols="40" placeholder="Ask a question...">Ask a question</textarea>
                 <input type="submit" value="Get in Touch">
             </form>
         </article>
